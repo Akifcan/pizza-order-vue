@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
   {
+    alias: '/',
     path: '/create-pizza',
     name: 'createPizza',
     component: () => import('@/views/CreatePizza')
